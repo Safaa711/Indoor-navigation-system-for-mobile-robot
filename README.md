@@ -1,4 +1,4 @@
-1- In order to install TurtleBot3 packages, we need first to install ROS1 using theses commands:
+1- In order to install TurtleBot3 packages, we need first to install ROS1 using these commands:
 
     sudo apt update
     
@@ -44,7 +44,7 @@
   
   4- Naming TurtleBot3 model:
   
-  There are multiple envieronments and worlds for TurtleBot, I will choose TurtleBot3 world and a robot called Waffle, so I can later create a map using SLAM.the following commands are to install theis robot and launch it in gazebo:
+  There are multiple environments and worlds for TurtleBot, I will choose TurtleBot3 world and a robot called Waffle, so I can later create a map using SLAM, the following commands are to install this robot and launch it in gazebo:
   
   export TURTLEBOT3_MODEL=waffle
   
@@ -65,7 +65,7 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ![Screenshot from 2021-07-31 20-21-55](https://user-images.githubusercontent.com/85526390/127747770-e3638201-585e-498a-8acb-4401ca950cab.png)
 
 
-In oreder to control this robot and be enabled to scan the area using a sensor called Lidar,we use the following commands in a new terminal:
+In order to control this robot, we use the following commands in a new terminal:
 
 export TURTLEBOT3_MODEL=waffle
 
