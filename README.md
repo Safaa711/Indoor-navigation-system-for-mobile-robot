@@ -71,6 +71,12 @@ export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
+Finally, to save this map we use the following command in a new terminal:
+
+rosrun map_server map_saver -f ~/map
+
+
+
 
 
   
