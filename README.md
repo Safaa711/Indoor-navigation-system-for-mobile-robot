@@ -78,7 +78,8 @@ Finally, to save this map we use the following command in a new terminal:
 
 rosrun map_server map_saver -f ~/map
 
-![Screenshot from 2021-07-31 22-30-09](https://user-images.githubusercontent.com/85526390/127750600-885cf8dc-99d5-4680-9ccd-5e52c365511b.png)
+![Screenshot from 2021-07-31 22-29-49](https://user-images.githubusercontent.com/85526390/127750749-08a292ae-fead-47c9-9fed-88facfff48fa.png)
+
 
 
 
