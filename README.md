@@ -44,7 +44,7 @@
   
   4- Naming TurtleBot3 model:
   
-  There are multiple worlds for TurtleBot, I will choose only one robot which is called Waffle, and the following commands are to install it and launch it in gazebo:
+  There are multiple envieronments and worlds for TurtleBot, I will choose TurtleBot3 world and a robot called Waffle, so I can later create a map using SLAM.the following commands are to install theis robot and launch it in gazebo:
   
   export TURTLEBOT3_MODEL=waffle
   
@@ -55,6 +55,20 @@ In order to control it, I will use the keyboard by using this command in a new t
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 ![Screenshot from 2021-07-31 19-13-39](https://user-images.githubusercontent.com/85526390/127746401-909f819c-027a-4f3e-88e7-956886696983.png)
+
+5- I will do the second part of this task, which is creating a map using SLAM simulation to show TurtleBot3 world, in a new terminal, I will use the following commands:
+
+export TURTLEBOT3_MODEL=waffle
+
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+
+In oreder to control this robot and be enabled to scan the area using a sensor called Lidar,we use the following commands in a new terminal:
+
+export TURTLEBOT3_MODEL=waffle
+
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+
 
   
 
