@@ -62,6 +62,9 @@ export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
+![Screenshot from 2021-07-31 20-21-55](https://user-images.githubusercontent.com/85526390/127747770-e3638201-585e-498a-8acb-4401ca950cab.png)
+
+
 In oreder to control this robot and be enabled to scan the area using a sensor called Lidar,we use the following commands in a new terminal:
 
 export TURTLEBOT3_MODEL=waffle
