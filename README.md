@@ -53,7 +53,8 @@
 In order to control it, I will use the keyboard by using this command in a new terminal:
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-[image](Screenshot from 2021-07-31 19-13-39.png)
+
+![image](Screenshot from 2021-07-31 19-13-39.png)
 
   
 
