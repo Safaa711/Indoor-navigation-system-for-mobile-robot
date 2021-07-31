@@ -54,6 +54,8 @@ In order to control it, I will use the keyboard by using this command in a new t
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
+Screenshot from 2021-07-31 19-13-39.png
+
   
 
   
