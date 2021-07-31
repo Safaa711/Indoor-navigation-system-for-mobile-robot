@@ -54,7 +54,7 @@ In order to control it, I will use the keyboard by using this command in a new t
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
-![image](Screenshot from 2021-07-31 19-13-39.png)
+![Screenshot from 2021-07-31 19-13-39](https://user-images.githubusercontent.com/85526390/127746401-909f819c-027a-4f3e-88e7-956886696983.png)
 
   
 
