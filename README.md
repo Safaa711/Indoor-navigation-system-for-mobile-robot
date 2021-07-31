@@ -1,4 +1,4 @@
-1- In order to install TurtleBot3 packages we need first to install ROS1 using theses commands:
+1- In order to install TurtleBot3 packages, we need first to install ROS1 using theses commands:
 
     sudo apt update
     
@@ -34,15 +34,29 @@
   
   cd ~/catkin_ws/src/
   
-  git clone -b melodic-devel https://github.com/ROBOTIS-GIT/DynamixelSDK.git
-  
-  git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-  
-  git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+  git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   
   cd ~/catkin_ws && catkin_make
   
+  In a new terminal, we write the following command:
+  
   echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+  
+  4- Naming TurtleBot3 model:
+  
+  There are multiple worlds for TurtleBot, I will choose only one robot which is called Waffle, and the following commands are to install it and launch it in gazebo:
+  
+  export TURTLEBOT3_MODEL=waffle
+  
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  
+In order to control it, I will use the keyboard by using this command in a new terminal:
+
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+  
+
+  
   
 
   
