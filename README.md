@@ -71,6 +71,10 @@ export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
+Note: to direct the robot through the map we use these keys on the keyboard:
+
+ W: to move forward, A: to move to the left, S: to stop, D: to move to the right, X: to move backward
+
 ![Screenshot from 2021-07-31 22-30-09](https://user-images.githubusercontent.com/85526390/127750623-7ca3e78e-c796-4550-84ea-239c6f03cf52.png)
 
 
