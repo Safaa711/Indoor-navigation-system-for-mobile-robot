@@ -65,7 +65,7 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ![Screenshot from 2021-07-31 20-21-55](https://user-images.githubusercontent.com/85526390/127747770-e3638201-585e-498a-8acb-4401ca950cab.png)
 
 
-In order to control this robot, we use the following commands in a new terminal:
+6- In order to control this robot, we use the following commands in a new terminal:
 
 export TURTLEBOT3_MODEL=waffle
 
@@ -78,7 +78,7 @@ Note: to direct the robot through the map we use these keys on the keyboard:
 ![Screenshot from 2021-07-31 22-30-09](https://user-images.githubusercontent.com/85526390/127750623-7ca3e78e-c796-4550-84ea-239c6f03cf52.png)
 
 
-Finally, to save this map we use the following command in a new terminal:
+7- Finally, to save this map we use the following command in a new terminal:
 
 rosrun map_server map_saver -f ~/map
 
