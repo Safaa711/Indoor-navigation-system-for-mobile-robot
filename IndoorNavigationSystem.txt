@@ -38,14 +38,22 @@ export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
+//in a new terminal
+
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+//in a new terminal
 
 export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
+//in a new terminal
+
 export TURTLEBOT3_MODEL=waffle
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+//in a new terminal
 
 rosrun map_server map_saver -f ~/map
